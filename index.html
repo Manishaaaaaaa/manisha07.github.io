@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Welcome to Nike</h1>
+        <p>Explore our latest collection of sportswear and footwear.</p>
+        <button onclick="location.href='#products'">Shop Now</button>
+    </section>
+    
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="shoe1.jpg" alt="Nike Shoe 1">
+            <p>Nike Air Max - $150</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="shoe2.jpg" alt="Nike Shoe 2">
+            <p>Nike Revolution - $120</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+    
+    <section id="video">
+        <h2>Watch Our Latest Collection</h2>
+        <video controls>
+            <source src="nike_ad.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    
+    <section id="about">
+        <h2>About Nike</h2>
+        <p>Nike is a global leader in sportswear, providing high-quality apparel and footwear.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Nike. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
